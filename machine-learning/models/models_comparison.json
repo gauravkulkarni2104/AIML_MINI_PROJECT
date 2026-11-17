@@ -1,0 +1,211 @@
+{
+  "models": [
+    {
+      "model_key": "random_forest",
+      "model_name": "Random Forest",
+      "accuracy": 76.72,
+      "macro_precision": 72.14,
+      "macro_recall": 68.02,
+      "macro_f1": 69.16,
+      "is_recommended": true,
+      "confusion_matrix": [
+        [
+          212,
+          23,
+          49
+        ],
+        [
+          37,
+          59,
+          63
+        ],
+        [
+          12,
+          22,
+          408
+        ]
+      ],
+      "per_class": [
+        {
+          "class_name": "Dropout",
+          "precision": 81.23,
+          "recall": 74.65,
+          "f1_score": 77.8,
+          "support": 284
+        },
+        {
+          "class_name": "Enrolled",
+          "precision": 56.73,
+          "recall": 37.11,
+          "f1_score": 44.87,
+          "support": 159
+        },
+        {
+          "class_name": "Graduate",
+          "precision": 78.46,
+          "recall": 92.31,
+          "f1_score": 84.82,
+          "support": 442
+        }
+      ]
+    },
+    {
+      "model_key": "logistic_regression",
+      "model_name": "Logistic Regression",
+      "accuracy": 76.84,
+      "macro_precision": 70.7,
+      "macro_recall": 67.54,
+      "macro_f1": 68.26,
+      "is_recommended": false,
+      "confusion_matrix": [
+        [
+          218,
+          29,
+          37
+        ],
+        [
+          43,
+          53,
+          63
+        ],
+        [
+          14,
+          19,
+          409
+        ]
+      ],
+      "per_class": [
+        {
+          "class_name": "Dropout",
+          "precision": 79.27,
+          "recall": 76.76,
+          "f1_score": 78.0,
+          "support": 284
+        },
+        {
+          "class_name": "Enrolled",
+          "precision": 52.48,
+          "recall": 33.33,
+          "f1_score": 40.77,
+          "support": 159
+        },
+        {
+          "class_name": "Graduate",
+          "precision": 80.35,
+          "recall": 92.53,
+          "f1_score": 86.01,
+          "support": 442
+        }
+      ]
+    },
+    {
+      "model_key": "decision_tree",
+      "model_name": "Decision Tree",
+      "accuracy": 73.22,
+      "macro_precision": 67.06,
+      "macro_recall": 64.53,
+      "macro_f1": 65.3,
+      "is_recommended": false,
+      "confusion_matrix": [
+        [
+          191,
+          43,
+          50
+        ],
+        [
+          39,
+          57,
+          63
+        ],
+        [
+          21,
+          21,
+          400
+        ]
+      ],
+      "per_class": [
+        {
+          "class_name": "Dropout",
+          "precision": 76.1,
+          "recall": 67.25,
+          "f1_score": 71.4,
+          "support": 284
+        },
+        {
+          "class_name": "Enrolled",
+          "precision": 47.11,
+          "recall": 35.85,
+          "f1_score": 40.71,
+          "support": 159
+        },
+        {
+          "class_name": "Graduate",
+          "precision": 77.97,
+          "recall": 90.5,
+          "f1_score": 83.77,
+          "support": 442
+        }
+      ]
+    },
+    {
+      "model_key": "kstar",
+      "model_name": "K-Star (K*)",
+      "accuracy": 65.2,
+      "macro_precision": 59.27,
+      "macro_recall": 56.33,
+      "macro_f1": 56.97,
+      "is_recommended": false,
+      "confusion_matrix": [
+        [
+          149,
+          46,
+          89
+        ],
+        [
+          36,
+          49,
+          74
+        ],
+        [
+          23,
+          40,
+          379
+        ]
+      ],
+      "per_class": [
+        {
+          "class_name": "Dropout",
+          "precision": 71.6,
+          "recall": 52.5,
+          "f1_score": 60.6,
+          "support": 284
+        },
+        {
+          "class_name": "Enrolled",
+          "precision": 36.3,
+          "recall": 30.8,
+          "f1_score": 33.3,
+          "support": 159
+        },
+        {
+          "class_name": "Graduate",
+          "precision": 69.9,
+          "recall": 85.7,
+          "f1_score": 77.0,
+          "support": 442
+        }
+      ]
+    }
+  ],
+  "evaluation_summary": {
+    "total_samples": 4424,
+    "train_samples": 3539,
+    "test_samples": 885,
+    "split": "Stratified 80:20 Split",
+    "classes": [
+      "Dropout",
+      "Enrolled",
+      "Graduate"
+    ]
+  }
+}

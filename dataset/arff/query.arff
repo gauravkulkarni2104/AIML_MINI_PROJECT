@@ -1,0 +1,42 @@
+@relation student_dropout_academic_success
+
+@attribute "Marital status" {1,2,3,4,5,6}
+@attribute "Application mode" {1,10,15,16,17,18,2,26,27,39,42,43,44,5,51,53,57,7}
+@attribute "Application order" numeric
+@attribute "Course" {171,33,8014,9003,9070,9085,9119,9130,9147,9238,9254,9500,9556,9670,9773,9853,9991}
+@attribute "Daytime/evening attendance" {0,1}
+@attribute "Previous qualification" {1,10,12,14,15,19,2,3,38,39,4,40,42,43,5,6,9}
+@attribute "Previous qualification (grade)" numeric
+@attribute "Nacionality" {1,100,101,103,105,108,109,11,13,14,17,2,21,22,24,25,26,32,41,6,62}
+@attribute "Mother's qualification" {1,10,11,12,14,18,19,2,22,26,27,29,3,30,34,35,36,37,38,39,4,40,41,42,43,44,5,6,9}
+@attribute "Father's qualification" {1,10,11,12,13,14,18,19,2,20,22,25,26,27,29,3,30,31,33,34,35,36,37,38,39,4,40,41,42,43,44,5,6,9}
+@attribute "Mother's occupation" {0,1,10,122,123,125,131,132,134,141,143,144,151,152,153,171,173,175,191,192,193,194,2,3,4,5,6,7,8,9,90,99}
+@attribute "Father's occupation" {0,1,10,101,102,103,112,114,121,122,123,124,131,132,134,135,141,143,144,151,152,153,154,161,163,171,172,174,175,181,182,183,192,193,194,195,2,3,4,5,6,7,8,9,90,99}
+@attribute "Admission grade" numeric
+@attribute "Displaced" {0,1}
+@attribute "Educational special needs" {0,1}
+@attribute "Debtor" {0,1}
+@attribute "Tuition fees up to date" {0,1}
+@attribute "Gender" {0,1}
+@attribute "Scholarship holder" {0,1}
+@attribute "Age at enrollment" numeric
+@attribute "International" {0,1}
+@attribute "Curricular units 1st sem (credited)" numeric
+@attribute "Curricular units 1st sem (enrolled)" numeric
+@attribute "Curricular units 1st sem (evaluations)" numeric
+@attribute "Curricular units 1st sem (approved)" numeric
+@attribute "Curricular units 1st sem (grade)" numeric
+@attribute "Curricular units 1st sem (without evaluations)" numeric
+@attribute "Curricular units 2nd sem (credited)" numeric
+@attribute "Curricular units 2nd sem (enrolled)" numeric
+@attribute "Curricular units 2nd sem (evaluations)" numeric
+@attribute "Curricular units 2nd sem (approved)" numeric
+@attribute "Curricular units 2nd sem (grade)" numeric
+@attribute "Curricular units 2nd sem (without evaluations)" numeric
+@attribute "Unemployment rate" numeric
+@attribute "Inflation rate" numeric
+@attribute "GDP" numeric
+@attribute "Target" {Dropout,Enrolled,Graduate}
+
+@data
+1,1,1.0,9500,1,1,133.1,1,1,37,9,9,140.0,1,0,0,1,0,0,19.0,0,0.0,6.0,8.0,6.0,14.5,0.0,0.0,6.0,8.0,6.0,15.0,0.0,11.1,1.4,0.32,?

@@ -1,0 +1,54 @@
+{
+  "model_name": "KStar (K*)",
+  "distance_metric": "Entropy-based distance metric",
+  "train_test_split": "Stratified 80:20 Split",
+  "total_test_instances": 885,
+  "accuracy": 100.0,
+  "error_rate": 0.0,
+  "kappa": 1.0,
+  "classes": [
+    "Dropout",
+    "Enrolled",
+    "Graduate"
+  ],
+  "detailed_class_metrics": [
+    {
+      "class_name": "Dropout",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_area": 1.0
+    },
+    {
+      "class_name": "Enrolled",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_area": 1.0
+    },
+    {
+      "class_name": "Graduate",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_area": 1.0
+    }
+  ],
+  "confusion_matrix": [
+    [
+      1137,
+      0,
+      0
+    ],
+    [
+      0,
+      635,
+      0
+    ],
+    [
+      0,
+      0,
+      1767
+    ]
+  ]
+}
