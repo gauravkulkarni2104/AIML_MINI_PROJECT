@@ -1,3 +1,4 @@
+
 # Student Dropout Prediction & Academic Success Analytics System
 
 > **Milestone Status**: Complete 100% Production-Ready Application  
@@ -214,3 +215,5 @@ http://localhost:5173
 ## 7. Educational & Ethical Disclaimer
 
 This application is developed strictly as an **educational decision-support system**. Automated predictions and unsupervised cluster assignments are statistical estimates intended to assist human educators, academic advisors, and counselors. **No automated punitive decisions or exclusions should ever be made concerning students based solely on model output.**
+# AIML_MINI_PROJECT
+
